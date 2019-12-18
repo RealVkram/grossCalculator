@@ -7,7 +7,7 @@ package chapter3;
 import java.util.Scanner;
 
 public class SalaryCalculator {
-    public static void main(String arg[]) {
+    public static void main(String args[]) {
         //initialize the given values
         int salary = 1000;
         int bonus = 250;
@@ -20,6 +20,7 @@ public class SalaryCalculator {
 
         System.out.print("How many sales did " + name + " made this week? ");
         int sales = scanner.nextInt();
+        scanner.close();
 
         //check the sales if it exceeds the 10
         if (sales > salesTarget) {

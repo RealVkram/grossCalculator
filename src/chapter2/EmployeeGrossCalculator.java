@@ -3,7 +3,7 @@ package chapter2;
 import java.util.Scanner;
 
 public class EmployeeGrossCalculator {
-    public static void main(String arg[]){
+    public static void main(String args[]){
          //1. get the number of hours worked
         System.out.println("Enter the number of hours worked");
         Scanner scanner = new Scanner(System.in);

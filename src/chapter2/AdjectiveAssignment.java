@@ -3,7 +3,7 @@ package chapter2;
 import java.util.Scanner;
 
 public class AdjectiveAssignment {
-    public static void main(String arg[]) {
+    public static void main(String args[]) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("kindly enter a good adjective ");
         String adjective = scanner.next();
