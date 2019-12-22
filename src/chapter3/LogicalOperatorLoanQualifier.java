@@ -26,8 +26,8 @@ public class LogicalOperatorLoanQualifier {
             System.out.println("Congrats, You qualify for the loan");
             }
         else {
-            System.out.println("I am sorry, You need to be in your recent employment for about " + requiredYearsEmployed + " or more in " +
-            "order to qualify and make about N" + requiredSalary + " or more to qualify");;
+            System.out.println("I am sorry, You need to be in your recent employment for about " + requiredYearsEmployed + " or more years " +
+            "and make about N" + requiredSalary + " or more in order to qualify");;
         }
 
     }
