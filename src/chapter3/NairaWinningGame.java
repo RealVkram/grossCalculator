@@ -8,7 +8,7 @@ public class NairaWinningGame {
 //        You'll ask them how many pennies would you like?
         Scanner scanner = new Scanner(System.in);
         System.out.println("Welcome to 'Change for a Dollar'! " +
-                "Your goal is to enter enough change to make exactly $1.00");
+                "Your goal is to enter enough change to make exactly N1.00");
 
         //amount of nickels
         System.out.print("How many nickels would you like? ");
